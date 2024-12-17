@@ -6,7 +6,7 @@ public class AccessMethods {
 		// TODO Auto-generated method stub
 
 		AccessMethods d = new AccessMethods();
-		String name = d.getData();
+		String name = getData();
 		System.out.println(name);
 		int i =d.getData1();
 		System.out.println(i);
@@ -14,7 +14,7 @@ public class AccessMethods {
 		p.getUserData(); // getting this method from ArraySplit
 	}
 	
-	public String getData()
+	public static String getData()
 	{
 		System.out.println("Hello");
 		return "pallavi";
