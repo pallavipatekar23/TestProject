@@ -1,6 +1,6 @@
 package SampleProject;
 
-public class Pallavi1 {
+public class ArraySplit {
 
 	public static void main(String[] args) {
 		String s = "Pallavi Bapu Patekar" ;
